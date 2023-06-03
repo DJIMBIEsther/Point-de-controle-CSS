@@ -3,12 +3,21 @@
   @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,600&display=swap');
   
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
 
+  /* Pour l'ajouter c'estfont-family: 'Satisfy', cursive;   */
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+  
+  /* font-family: 'Vollkorn', serif; */
+  @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
 
   body{ font-family: 'Advent Pro', sans-serif;
     padding: 0;
     margin: 0;
+    background-color: antiquewhite;
   }
 
   ul{margin: 0;
@@ -23,7 +32,8 @@
 
   }
 
-  h2{ font-family: 'Franklin Gothic Medium', 
+  h2{ font-family: 'Dancing Script', cursive; 
+    font-size: 3em; text-align: center; 
 
   }
 
@@ -59,8 +69,129 @@
 
   }
 
-  .img2{ width: 50%; height: 250PX;
+/* .......Partie présentation  */
+
+  .img2{
+    width: 600px;
+     object-fit: cover;
+     border-radius: 50%;
+     float: left;
+     shape-outside: margin-box;
+     margin: 0 20px 5px 0 ;
 
   }
-  
-  
+
+#Présentation{max-width: max-content;
+  margin: 0;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 15px pink;
+  background-color: cornsilk;
+}
+
+#Présentation p { line-height: 1.4;
+   text-align: right;
+    font-size: xx-large;
+    font-family: 'Cardo', serif;
+     ;
+}
+/*  .....Partie des avantages ..... */
+
+#Lesavantagespart1 { background-color: antiquewhite;
+
+}
+
+#Lesavantagespart1 p { text-align: right;
+   font-size: larger;
+   font-family: 'Cardo', serif;
+
+}
+
+
+   .img3 { width: 1300px;
+     box-shadow: 10px 10px 30px pink; 
+     height: 500px;
+
+   }
+
+   #Lesavantagespart1 h3 { text-align: center;
+     font-size: 2em;
+      font-family: 'Cardo', serif; ;
+
+   }
+
+   /* .....Les avantages des chiens à la maison.... */
+   
+   #Chienàlamaison{ background-color: cornsilk;
+
+   }
+
+   #Chienàlamaison h3 { color: black; font-family: 'Vollkorn', serif; font-size: 2em; text-align: center;
+
+   }
+
+   #Apropos{ background-color: antiquewhite; 
+   }
+
+   #Apropos h3 { font-family: 'Cardo', serif; font-size: 2em;
+
+   }
+   
+
+   
+   
+   .img4{width: 200px;  box-shadow: 10px 10px 30px pink
+
+   }
+
+   .img5{width: 1300px;
+     height: 400px ;  box-shadow: 10px 10px 30px pink ;
+   }
+
+   .logoapropos{ width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0 ;
+
+   }
+form{ margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+form h3 {font-size: 2em;
+   text-align: center;
+   font-family: 'Vollkorn', serif;   
+
+}
+
+input, textarea, button{ border: none;
+  width: 55%;
+padding: 15px 10px;
+margin: 1px 0;
+font-size: 1.2em; 
+font-family: 'Advent Pro' , sans-serif;
+border-radius: 8px;
+
+}
+   
+   .logoapropos{
+    width: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+     float: left;
+     shape-outside: margin-box;
+     margin: 0 20px 5px 0 ;
+
+  }
+
+#Apropos{max-width: max-content;
+  margin: 0;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 15px pink;
+  background-color: cornsilk;
+}
+
